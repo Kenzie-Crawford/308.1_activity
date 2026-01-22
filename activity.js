@@ -59,4 +59,14 @@ console.log(isDivisibleBy5);
 const isFirstLarger= n1 > n4;
 console.log(isFirstLarger);
 
-//
+//Subtract the first number from the second number.
+const subtractFirstFromLast= n2- n4;
+console.log(subtractFirstFromLast);
+//Multiply the result by the third number.
+const multiplyByThird = subtractFirstFromLast * n3;
+console.log(multiplyByThird);
+
+
+//Find the remainder of dividing the result by the fourth number.//
+const remainderByFourth= multiplyByThird % n4;
+console.log(remainderByFourth);
